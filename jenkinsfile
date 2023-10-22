@@ -1,0 +1,10 @@
+pipeline {
+    agent {label "linux"}
+    stages {
+        stage('HALLO') {
+          steps {
+            echo "Hallo Herr Zdih aus JenkinsFils"
+          }
+        }
+    }
+}
